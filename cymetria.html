@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cymetria</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Estudiantes de Cymetria</h3>
+    <form action="#">
+        <label for="name">Nombre completo</label><br>
+        <input type="text" name="name" id="name" placeholder="Ingrese su nombre completo"><br><br>
+
+        <label for="mail">Email</label><br>
+        <input type="email" name="mail" id="mail" placeholder="Ej:username@correo.co"><br><br>
+
+        <label for="curso">¿Qué curso estás tomando en Cymetria?</label><br><br>
+        <input type="radio" name="curso" id="curso" value="SQL">
+        <label for="SQL">SQL-SERVER</label><br><br>
+        <input type="radio" name="curso" id="curso" value="Frontend">
+        <label for="Frontend">Frontend</label><br><br>
+        <input type="radio" name="curso" id="curso" value="FullStack">
+        <label for="FullStack">FullStack</label><br><br>
+
+        <label for="lenguaje">¿Cuales lenguajes de programación te gustaría seguir aprendiendo?</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="Python">
+        <label for="Python">Python</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="net">
+        <label for="net">.Net</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="java">
+        <label for="java">Java</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="node">
+        <label for="node">Nodejs</label><br><br>
+        <input type="checkbox" name="lenguaje" id="lenguaje" value="php">
+        <label for="php">PHP</label><br><br>
+
+        <button type="reset" id="cancelar">Cancelar</button>
+        <button type="submit" id="enviar">Enviar</button>
+    </form>
+</body>
+</html>
